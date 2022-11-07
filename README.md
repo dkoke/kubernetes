@@ -1,4 +1,4 @@
-# kubernetes-homelab
+# Homelab
 
 ## Overview
 

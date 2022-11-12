@@ -4,7 +4,7 @@
 
 Project status: **WIP**
 
-This project is for learning, testing, and running applications.
+This project is to assist in learning Kubernetes.
 
 
 ### Hardware
@@ -24,6 +24,8 @@ This project is for learning, testing, and running applications.
     - Ports: `5`
     - Speed: `1000Mbps`
 
-### Hardware
+### Installation / Setup
+
+Lenovo M900s are running Debain 11 "Bullseye", I used a network installation image for each device. The generic PC is running Proxmox 7 with a Ubuntu Server VM. 
 
 Ansible Playbook for Automated installation

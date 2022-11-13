@@ -4,15 +4,12 @@
 
 Project status: **WIP**
 
-This project is to assist in learning Kubernetes.
+This project is to assist in learning Kubernetes and self-hosting applications. The overall goal is to assist in obtaining my CKA (Certified Kuberenetes Administrator).
 
 
-### Hardware
-
-![Homelab](https://i.imgur.com/GehCdqv.jpg)
-
+## Hardware
 - 3 × Thinkcentre M900:
-    - CPU: `Intel Core i5-6600T @ 2.70GHz`
+    - CPU: `Intel Core i5-6500T @ 2.50GHz`
     - RAM: `16GB`
     - SSD: `128GB`
 - 1 x Generic PC Build
@@ -24,8 +21,24 @@ This project is to assist in learning Kubernetes.
     - Ports: `5`
     - Speed: `1000Mbps`
 
-### Installation / Setup
+![Homelab](https://i.imgur.com/GehCdqv.jpg)
 
-Lenovo M900s are running Debain 11 "Bullseye", I used a network installation image for each device. The generic PC is running Proxmox 7 with a Ubuntu Server VM. 
+## Installation / Setup
 
-Ansible Playbook for Automated installation
+### Operating System
+Lenovo M900s are running Debain 11 "Bullseye", I used a network installation image for each device. The generic PC is running Proxmox 7 with a Ubuntu Server VM.
+- [x] Debian (tested on version 11)
+- [x] Ubuntu (tested on version 22.04)
+
+Before moving forward
+
+`sudo apt update`
+
+`sudo apt upgrade`
+
+### Automation
+Install Ansible v2.4.0+
+
+`sudo apt install ansible`
+
+`git clone https://github.com/dkoke/kubernetes-homelab`

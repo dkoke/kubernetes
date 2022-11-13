@@ -1,6 +1,6 @@
 # Kubernetes Homelab
 
-## Overview
+### Overview
 
 Project status: **WIP**
 

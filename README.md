@@ -31,10 +31,14 @@ Lenovo M900s are running Debain 11 "Bullseye", I used a network installation ima
 - [x] Ubuntu (tested on version 22.04)
 
 Before moving forward
+
 `sudo apt update`
+
 `sudo apt upgrade`
 
 ### Automation
 Install Ansible v2.4.0+
+
 `sudo apt install ansible`
+
 `git clone https://github.com/dkoke/kubernetes-homelab`

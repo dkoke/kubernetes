@@ -8,9 +8,6 @@ This project is to assist in learning Kubernetes and self-hosting applications. 
 
 
 ### Hardware
-
-![Homelab](https://i.imgur.com/GehCdqv.jpg)
-
 - 3 × Thinkcentre M900:
     - CPU: `Intel Core i5-6500T @ 2.50GHz`
     - RAM: `16GB`
@@ -23,6 +20,8 @@ This project is to assist in learning Kubernetes and self-hosting applications. 
 - TP-Link `TL-SG105` switch:
     - Ports: `5`
     - Speed: `1000Mbps`
+
+![Homelab](https://i.imgur.com/GehCdqv.jpg)
 
 ### Installation / Setup
 

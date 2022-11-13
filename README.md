@@ -4,7 +4,7 @@
 
 Project status: **WIP**
 
-This project is to assist in learning Kubernetes.
+This project is to assist in learning Kubernetes and self-hosting applications. The overall goal is to assist in obtaining my CKA (Certified Kuberenetes Administrator).
 
 
 ### Hardware

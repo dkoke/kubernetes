@@ -12,7 +12,7 @@ This project is to assist in learning Kubernetes and self-hosting applications. 
 ![Homelab](https://i.imgur.com/GehCdqv.jpg)
 
 - 3 × Thinkcentre M900:
-    - CPU: `Intel Core i5-6600T @ 2.70GHz`
+    - CPU: `Intel Core i5-6500T @ 2.50GHz`
     - RAM: `16GB`
     - SSD: `128GB`
 - 1 x Generic PC Build

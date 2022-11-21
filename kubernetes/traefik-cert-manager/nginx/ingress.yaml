@@ -10,12 +10,12 @@ spec:
   entryPoints:
     - websecure
   routes:
-    - match: Host(`www.nginx.local.example.com`)
+    - match: Host(`www.traefik.nginx.com`)
       kind: Rule
       services:
         - name: nginx
           port: 80
-    - match: Host(`nginx.local.example.com`)
+    - match: Host(`traefik.nginx.com`)
       kind: Rule
       services:
         - name: nginx
